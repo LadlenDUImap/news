@@ -1,0 +1,2 @@
+./yii migrate/create create_user_table --fields="email:string:unique:notNull,password:string:notNull,salt:string:notNull"
+./yii migrate/create create_user_token_table --fields="user_id:integer:notNull:foreignKey(user),token:string:notNull"

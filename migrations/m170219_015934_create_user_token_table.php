@@ -8,7 +8,7 @@ use yii\db\Migration;
  *
  * - `user`
  */
-class m170218_225807_create_user_token_table extends Migration
+class m170219_015934_create_user_token_table extends Migration
 {
     /**
      * @inheritdoc
@@ -35,7 +35,6 @@ class m170218_225807_create_user_token_table extends Migration
             'user_id',
             'user',
             'id',
-            'CASCADE',
             'CASCADE'
         );
     }
